@@ -1,7 +1,8 @@
 import os
 import logging
 
-ROOT_PATH=os.path.join(os.environ['HOME'], 'VisualSearch')
+#ROOT_PATH=os.path.join(os.environ['HOME'], 'VisualSearch')
+ROOT_PATH='/usr/local/extstore01/pengnanf/VisualSearch'
 
 logger = logging.getLogger(__file__)
 logging.basicConfig(
