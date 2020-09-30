@@ -324,6 +324,7 @@ class Dual_Encoding(BaseModel):
         print(self.vid_encoding)
         print(self.text_encoding)
         if torch.cuda.is_available():
+            #cudnn.benchmark = True
             self.vid_encoding.cuda()
             self.text_encoding.cuda()
             cudnn.benchmark = True

@@ -7,6 +7,7 @@ ca-certificates=2020.7.22=0
 certifi=2019.11.28=py27_0
 cffi=1.14.0=py27he30daa8_1
 cuda90=1.0=h6433d27_0
+cuda92=1.0=0
 cudatoolkit=10.1.243=h6bb024c_0
 freetype=2.10.2=h5ab3b9f_0
 intel-openmp=2020.2=254
@@ -35,7 +36,7 @@ pip=20.2.3=pypi_0
 protobuf=3.13.0=pypi_0
 pycparser=2.20=py_2
 python=2.7.18=h15b4118_1
-pytorch=0.4.1=py27__9.0.176_7.1.2_2
+pytorch=0.4.1=py27_cuda9.2.148_cudnn7.1.4_1
 readline=8.0=h7b6447c_0
 scikit-learn=0.19.1=pypi_0
 scipy=1.1.0=pypi_0
