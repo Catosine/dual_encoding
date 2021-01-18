@@ -188,6 +188,7 @@ def main():
        
 
     # Construct the model
+    # TODO: Change model here
     model = get_model(opt.model)(opt)
     opt.we_parameter = None
     
