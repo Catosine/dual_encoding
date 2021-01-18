@@ -319,6 +319,9 @@ class Dual_Encoding(BaseModel):
     def __init__(self, opt):
         # Build Models
         self.grad_clip = opt.grad_clip
+        # TODO: use transformer here
+        # example: self.vid_encoding = Transformer(opt)
+        # example: self.text_encoding = Transformer(opt)
         self.vid_encoding = Video_multilevel_encoding(opt)
         self.text_encoding = Text_multilevel_encoding(opt)
         print(self.vid_encoding)
